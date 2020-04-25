@@ -1,0 +1,9 @@
+<div class="calories">
+    <h2>Today's Foods Calories</h2>
+    <ul class="items">
+        <!--here all items as well as count of each are displayed -->
+        <li *ngFor="let item of items">
+            {{item.name}} {{item.calories}}<span> x </span>{{item.count}}
+        </li>
+    </ul>
+</div>

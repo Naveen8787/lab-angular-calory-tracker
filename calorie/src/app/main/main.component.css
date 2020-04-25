@@ -1,0 +1,25 @@
+.addbutton {
+    background-color: orangered;
+    color: white;
+    padding: 25px;
+    border-radius: 0px;
+    margin-left: 25%;
+    padding: 0.5em;
+}
+
+.searchbox {
+    padding-left: 28%;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    width: 350px;
+    border: 1px solid gray;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+<!--<div class="searchbox">
+    <label for="food-search">Search</label>
+    <input id="food-search" type="text" [(ngModel)]="pattern"> </div>
+-->
+
+<div>
+    <ul class="items">
+        <li *ngFor="let item of items">
+            <img src="{{item.image}}" alt=" {{item.name}}">
+            <div class="grid">
+                <p>{{item.name}}</p>
+                <p>Calory-<span class="color">{{item.calories}}</span></p>
+                <input #count type="number">
+                <button class="add-btn" (click)="addcount(count.value,item)">Add</button>
+            </div>
+        </li>
+    </ul>
+</div>

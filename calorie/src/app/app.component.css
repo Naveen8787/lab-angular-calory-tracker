@@ -1,0 +1,12 @@
+header {
+    background-color: orangered;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+    padding-left: 15px;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}

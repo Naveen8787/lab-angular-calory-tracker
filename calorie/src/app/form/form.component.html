@@ -1,0 +1,17 @@
+<div class="form">
+    <!--New Item to be added by using this form-->
+    <div>
+        <label for="items-name">Name:</label>
+        <input type="text" (ngModel)="newItem.name" placeholder="Enter name of food item">
+    </div>
+    <div>
+        <label for="items-calories">Calories:</label>
+        <input type="text" (ngModel)="newItem.calories" placeholder="Enter claories of food item">
+    </div>
+    <div>
+        <label for="item-image">Image:</label>
+        <input type="text" (ngModel)="newItem.image" placeholder="Enter image Link">
+    </div>
+</div>
+<!--By clicking on Add Food butoon item is added-->
+<button class="add-btn" (click)="addItem(newItem)">Add Food</button>
